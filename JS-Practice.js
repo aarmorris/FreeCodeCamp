@@ -13,6 +13,6 @@ const answer = plusThree(5);
 function timesFive(int){
     return int * 5;
 }
-
-
+// Below code test to see if html and javascript is linked with script tag and src="".
+// alert("This is a test I'm practicing Javascript");
 // solved answer above *Freecode camp*
