@@ -163,3 +163,34 @@ processed = processArg(7);
 //
 // The nextInLine function should then return the element that was removed.
 
+function nextInLine(arr, item) {
+    // Only change code below this line
+    arr.push(item);
+    // Only change code above this line
+    const removed = arr.shift();
+    return removed;
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+//Understanding Boolean Values
+// Another data type is the Boolean. Booleans may only be one of two values: true or false. They are basically little on-off switches, where true is on and false is off. These two states are mutually exclusive.
+//
+// Note: Boolean values are never written with quotes. The strings "true" and "false" are not Boolean and have no special meaning in JavaScript.
+//
+// Modify the welcomeToBooleans function so that it returns true instead of false when the run button is clicked.
+
+function welcomeToBooleans() {
+    // Only change code below this line
+
+    return true; // Change this line
+
+    // Only change code above this line
+}
+
