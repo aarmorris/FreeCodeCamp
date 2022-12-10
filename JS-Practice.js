@@ -959,4 +959,16 @@ isLess(10, 15);
 // Hint
 // Remember that undefined is a keyword, not a string.
 
+// Setup
+function abTest(a, b) {
+    // Only change code below this line
 
+
+
+    // Only change code above this line
+
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+// Next line to add coding exercises
