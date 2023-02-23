@@ -946,12 +946,12 @@ isLess(10, 15);
 //
 // Example
 //
-// function myFun() {
-//   console.log("Hello");
-//   return "World";
-//   console.log("byebye")
-// }
-// myFun();
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+myFun();
 // The above will display the string Hello in the console, and return the string World. The string byebye will never display in the console, because the function exits at the return statement.
 //
 // Modify the function abTest so that if a or b are less than 0 the function will immediately exit with a value of undefined.
@@ -986,16 +986,3 @@ abTest(2,2);
             console.log(i);
         }
     }
-
-
-        // for (let i = 1; i < 100; i++){
-        //     if (i % 3 == 0 && i % 5 == 0) {
-        //         console.log("fizzbuzz");
-        //     } else if (i % 3 == 0) {
-        //         console.log("fizz");
-        //     } else if (i % 5 == 0) {
-        //         console.log ("buzz");
-        //     } else {
-        //         console.log(i);
-        //     }
-        // }
