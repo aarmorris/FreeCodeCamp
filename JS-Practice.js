@@ -865,25 +865,25 @@ function sequentialSizes(val) {
 // Replacing If Else Chains with Switch
 // If you have many options to choose from, a switch statement can be easier to write than many chained if/else if statements. The following:
 //
-// if (val === 1) {
-//   answer = "a";
-// } else if (val === 2) {
-//   answer = "b";
-// } else {
-//   answer = "c";
-// }
+if (val === 1) {
+  answer = "a";
+} else if (val === 2) {
+  answer = "b";
+} else {
+  answer = "c";
+}
 // can be replaced with:
 //
-// switch (val) {
-//   case 1:
-//     answer = "a";
-//     break;
-//   case 2:
-//     answer = "b";
-//     break;
-//   default:
-//     answer = "c";
-// }
+switch (val) {
+  case 1:
+    answer = "a";
+    break;
+  case 2:
+    answer = "b";
+    break;
+  default:
+    answer = "c";
+}
 // Change the chained if/else if statements into a switch statement.
 
 function chainToSwitch(val) {
