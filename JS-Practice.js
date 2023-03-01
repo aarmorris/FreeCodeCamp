@@ -825,13 +825,13 @@ switch (val) {
   case 4:
     result = "4 alone";
 }
-// Cases for 1, 2, and 3 will all produce the same result.
-//
-// Write a switch statement to set answer for the following ranges:
-// 1-3 - Low
-// 4-6 - Mid
-// 7-9 - High
-//
+Cases for 1, 2, and 3 will all produce the same result.
+
+Write a switch statement to set answer for the following ranges:
+1-3 - Low
+4-6 - Mid
+7-9 - High
+
 // Note: You will need to have a case statement for each number in the range.
 
 function sequentialSizes(val) {
